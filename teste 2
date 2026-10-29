@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Minha Página</title>
+
+<body>
+
+
+
+<nav>
+
+  <a href="#sobre">Sobre</a>
+
+  <a href="#habilidades">Habilidades</a>
+
+  <a href="#projetos">Projetos</a>
+
+  <a href="#contato">Contato</a>
+
+</nav>
+
+
+
+<main>
+
+
+
+<section id="sobre">
+
+  <h2>Sobre Mim</h2>
+
+  <p>estudante de ADS na unipê, com foco em backend, amplo conhecimento na AREA de TI.</p>
+
+</section>
+
+
+
+<section id="habilidades">
+
+  <h2>Habilidades</h2>
+
+  <p>Phyton, Suporte TI, Redes</p>
+
+</section>
+
+
+
+<section id="projetos">
+
+  <h2>Projetos</h2>
+
+
+
+  <article>
+
+    <h3>Projeto 1</h3>
+
+    <p>Pagina Pessoal usando HTML.</p>
+
+  </article>
+
+
+
+  <article>
+
+    <h3>Site De NUtrição</h3>
+
+    <p>Site de Nutrição Usando I.A para ajudar pessoas a terem uma vida saudavel</p>
+
+  </article>
+
+
+
+  <article>
+
+    <h3>Site De finanças</h3>
+
+    <p>Fiz um site para ajudar nas minhas finanças pessoais</p>
+
+  </article>
+
+</section>
+
+
+
+<section id="contato">
+
+  <h2>Contato</h2>
+
+  <p>Email: victoroldnegocios@email.com</p>
+
+  <p>GitHub: VictorNunesLp</p>
+
+  <p>LinkedIn: João Victor Lima Nunes</p>
+
+</section>
+
+
+
+</main>
+
+
+
+</body>
+
+</html>

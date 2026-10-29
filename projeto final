@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <title>Victor | Portfólio</title>
+
+
+
+  <!-- Bootstrap 5 -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+  <style>
+
+    body {
+
+      background-color: #f4f6f9;
+
+      color: #212529;
+
+    }
+
+
+
+    .navbar {
+
+      background-color: #172554;
+
+    }
+
+
+
+    .hero {
+
+      background-color: #172554;
+
+      color: white;
+
+      padding: 100px 0;
+
+    }
+
+
+
+    .hero h1 span {
+
+      color: #60a5fa;
+
+    }
+
+
+
+    .section-title {
+
+      color: #172554;
+
+      font-weight: bold;
+
+    }
+
+
+
+    .skill-card {
+
+      border: none;
+
+      padding: 20px;
+
+      text-align: center;
+
+      background-color: white;
+
+      border-radius: 10px;
+
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+    }
+
+
+
+    .project-card {
+
+      border: none;
+
+      border-radius: 10px;
+
+      transition: 0.3s;
+
+    }
+
+
+
+    .project-card:hover {
+
+      transform: translateY(-5px);
+
+    }
+
+
+
+    .btn-custom {
+
+      background-color: #2563eb;
+
+      color: white;
+
+    }
+
+
+
+    .btn-custom:hover {
+
+      background-color: #1d4ed8;
+
+      color: white;
+
+    }
+
+
+
+    footer {
+
+      background-color: #172554;
+
+      color: white;
+
+    }
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+
+    <div class="container">
+
+
+
+      <a class="navbar-brand fw-bold" href="#inicio">
+
+        Victor.dev
+
+      </a>
+
+
+
+      <button class="navbar-toggler" type="button"
+
+        data-bs-toggle="collapse" data-bs-target="#menu"
+
+        aria-controls="menu" aria-expanded="false"
+
+        aria-label="Abrir menu">
+
+
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+
+
+      <div class="collapse navbar-collapse" id="menu">
+
+        <ul class="navbar-nav ms-auto">
+
+
+
+          <li class="nav-item">
+
+            <a class="nav-link" href="#inicio">Início</a>
+
+          </li>
+
+
+
+          <li class="nav-item">
+
+            <a class="nav-link" href="#sobre">Sobre Mim</a>
+
+          </li>
+
+
+
+          <li class="nav-item">
+
+            <a class="nav-link" href="#habilidades">Habilidades</a>
+
+          </li>
+
+
+
+          <li class="nav-item">
+
+            <a class="nav-link" href="#projetos">Me Conheça</a>
+
+          </li>
+
+
+
+          <li class="nav-item">
+
+            <a class="nav-link" href="#contato">Contato</a>
+
+          </li>
+
+
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+
+  <!-- Hero -->
+
+  <section class="hero" id="inicio">
+
+    <div class="container">
+
+      <div class="row align-items-center">
+
+
+
+        <div class="col-md-8">
+
+
+
+          <p class="text-info">ESTUDANTE DE TECNOLOGIA</p>
+
+
+
+          <h1 class="display-4 fw-bold">
+
+            Olá, eu sou <span>Victor</span>!
+
+          </h1>
+
+
+
+          <h3 class="mb-3">
+
+            Desenvolvedor Front-End em formação
+
+          </h3>
+
+
+
+          <p class="lead">
+
+            Sou estudante de Análise e Desenvolvimento
+
+            de Sistemas na UNIPÊ e estou aprendendo a
+
+            criar sites modernos, funcionais e responsivos.
+
+          </p>
+
+
+
+          <a href="#projetos" class="btn btn-custom btn-lg mt-3">
+
+            Me conheça melhor
+
+          </a>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- Sobre Mim -->
+
+  <section class="py-5" id="sobre">
+
+    <div class="container">
+
+
+
+      <h2 class="section-title text-center mb-4">
+
+        Sobre Mim
+
+      </h2>
+
+
+
+      <div class="row justify-content-center">
+
+        <div class="col-md-9 text-center">
+
+
+
+          <p>
+
+            Meu nome é Victor e curso Análise e Desenvolvimento
+
+            de Sistemas na UNIPÊ. Tenho interesse em programação,
+
+            desenvolvimento web e criação de interfaces.
+
+            Meu objetivo é desenvolver minhas habilidades,
+
+            conquistar experiência profissional e me tornar
+
+            um desenvolvedor qualificado.
+
+          </p>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- Habilidades -->
+
+  <section class="py-5 bg-white" id="habilidades">
+
+    <div class="container">
+
+
+
+      <h2 class="section-title text-center mb-4">
+
+        Habilidades Técnicas
+
+      </h2>
+
+
+
+      <div class="row g-4">
+
+
+
+        <div class="col-6 col-md-3">
+
+          <div class="skill-card h-100">
+
+            <h5>HTML5</h5>
+
+            <p class="mb-0">Estrutura das páginas</p>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-6 col-md-3">
+
+          <div class="skill-card h-100">
+
+            <h5>CSS3</h5>
+
+            <p class="mb-0">Estilização de sites</p>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-6 col-md-3">
+
+          <div class="skill-card h-100">
+
+            <h5>JavaScript</h5>
+
+            <p class="mb-0">Interatividade</p>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-6 col-md-3">
+
+          <div class="skill-card h-100">
+
+            <h5>Bootstrap 5</h5>
+
+            <p class="mb-0">Layout responsivo</p>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- Me Conheça um Pouco Mais -->
+
+  <section class="py-5" id="projetos">
+
+    <div class="container">
+
+
+
+      <h2 class="section-title text-center mb-4">
+
+        Me Conheça um Pouco Mais
+
+      </h2>
+
+
+
+      <div class="row justify-content-center">
+
+        <div class="col-md-8">
+
+
+
+          <div class="card project-card shadow-sm">
+
+            <div class="card-body text-center p-4">
+
+
+
+              <h5 class="card-title">
+
+                Olá, eu sou Victor!
+
+              </h5>
+
+
+
+              <p class="card-text">
+
+                Sou estudante de Análise e Desenvolvimento
+
+                de Sistemas na UNIPÊ. Tenho interesse em
+
+                tecnologia e desenvolvimento web, e estou
+
+                sempre buscando aprender coisas novas e
+
+                evoluir profissionalmente.
+
+              </p>
+
+
+
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-lima-nunes-74376a361?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+
+                target="_blank"
+
+                rel="noopener noreferrer"
+
+                class="btn btn-custom">
+
+                Meu LinkedIn
+
+              </a>
+
+
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- Contato -->
+
+  <section class="py-5 bg-white" id="contato">
+
+    <div class="container">
+
+
+
+      <h2 class="section-title text-center mb-4">
+
+        Entre em Contato
+
+      </h2>
+
+
+
+      <div class="row justify-content-center">
+
+        <div class="col-md-7">
+
+
+
+          <form>
+
+            <div class="mb-3">
+
+              <label for="nome" class="form-label">
+
+                Nome
+
+              </label>
+
+
+
+              <input type="text" class="form-control"
+
+                id="nome" placeholder="Digite seu nome"
+
+                required>
+
+            </div>
+
+
+
+            <div class="mb-3">
+
+              <label for="email" class="form-label">
+
+                E-mail
+
+              </label>
+
+
+
+              <input type="email" class="form-control"
+
+                id="email" placeholder="Digite seu e-mail"
+
+                required>
+
+            </div>
+
+
+
+            <div class="mb-3">
+
+              <label for="mensagem" class="form-label">
+
+                Mensagem
+
+              </label>
+
+
+
+              <textarea class="form-control" id="mensagem"
+
+                rows="4"
+
+                placeholder="Escreva sua mensagem"
+
+                required></textarea>
+
+            </div>
+
+
+
+            <button type="submit" class="btn btn-custom">
+
+              Enviar mensagem
+
+            </button>
+
+          </form>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- Footer -->
+
+  <footer class="text-center py-3">
+
+    <div class="container">
+
+
+
+      <p class="mb-0">
+
+        &copy; 2026 Victor - Todos os direitos reservados.
+
+      </p>
+
+
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- Bootstrap JavaScript -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
